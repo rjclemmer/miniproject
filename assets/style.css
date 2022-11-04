@@ -1,18 +1,38 @@
+*{
+    background-color: lightseagreen;
+}
 img{
     height: 400px;
     width: 450px;
-    padding: 20px;
-    margin-inline: 225px;
-    align-items: center;
-    display: block;
+    
+    
 }
 
 header{
     text-align: center;
-    color: red;
+    color: orange;
 }
 
 p1{
-    color:black;
-    font: 50;
+    color:blue;
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+}
+
+footer{
+    display: block;
+    text-align: center;
+}
+
+.padding{
+    padding: 30px;
+    background-color: blue;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
