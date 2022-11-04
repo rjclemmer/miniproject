@@ -1,4 +1,18 @@
 img{
     height: 400px;
     width: 450px;
+    padding: 20px;
+    margin-inline: 225px;
+    align-items: center;
+    display: block;
+}
+
+header{
+    text-align: center;
+    color: red;
+}
+
+p1{
+    color:black;
+    font: 50;
 }
