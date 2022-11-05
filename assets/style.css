@@ -1,5 +1,5 @@
 *{
-    background-color: lightseagreen;
+    background-color: lightgoldenrodyellow;
 }
 img{
     height: 400px;
@@ -31,8 +31,18 @@ footer{
     background-color: blue;
 }
 
+form{
+    margin: 40px;
+    display: block;
+    text-align: center;    
+}
+
 .center{
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+.centertext{
+    text-align: center;
 }
