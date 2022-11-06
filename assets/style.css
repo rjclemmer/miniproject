@@ -1,12 +1,11 @@
-/*{
-    background-color: lightgoldenrodyellow;
+*{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}*/
+}
 
 img{
     height: 400px;
     width: 450px;
-    margin-bottom: auto;
+    margin-top: auto;
     
     
 }
@@ -18,6 +17,8 @@ header{
     position: fixed;
     display: block;
     top:0;
+    width:100%;
+    margin-bottom: auto;
 }
 
 ul{
@@ -28,6 +29,9 @@ li{
     list-style-type: none;
     font-size: 30px;
     display: inline;
+    text-align: left;
+    margin-left: 0px;
+    left: 0;
 }
 
 p1{
