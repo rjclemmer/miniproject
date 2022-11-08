@@ -15,11 +15,16 @@ header{
     text-align: center;
     color: orange;
     background-color: blue;
-    /*position: fixed;*/ 
+    position: fixed; 
     display: block;
     top:0;
     width:100%;
     margin-bottom: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
 }
 
 ul{
@@ -35,6 +40,11 @@ li{
     left: 0;
 }
 
+.padding-top{
+    padding-top:120px;
+    padding-bottom: 60px;
+}
+
 p1{
     color:blue;
     font-size: 30px;
@@ -46,6 +56,8 @@ p1{
 footer{
     display: block;
     text-align: center;
+    background-color: orange;
+    color: blue;
 }
 
 .padding{
@@ -70,16 +82,17 @@ form{
 }
 
 #ul1{
-    background-color: aqua;
-    color: black;
+    color: orange;
+    padding-left: 10px;
 }
 
 #ul2{
-    background-color: beige;
-    color: black;
+    color: orange;
+    padding-left: 10px;
 }
 
 #ul3{
-    background-color: paleturquoise;
-    color: black;
+    color: orange;
+    padding-left: 10px;
+    padding-right: 20px;
 }
