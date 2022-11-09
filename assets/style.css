@@ -96,3 +96,15 @@ form{
     padding-left: 10px;
     padding-right: 20px;
 }
+/* 
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+ 
+input{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
