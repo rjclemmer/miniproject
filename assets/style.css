@@ -40,19 +40,29 @@ li{
     left: 0;
 }
 
+a{
+    color: orange;
+    text-decoration: none;
+}
+
 .padding-top{
     padding-top:120px;
     padding-bottom: 60px;
 }
 
 p1{
-    color:blue;
+    background-color: blue;
+    color:orange;
     font-size: 30px;
     text-align: center;
     display: block;
     margin-top: 30px;
 }
 
+h2{
+    background-color: blue;
+    color: orange;
+}
 footer{
     display: block;
     text-align: center;
@@ -96,15 +106,14 @@ form{
     padding-left: 10px;
     padding-right: 20px;
 }
-/* 
-form{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
+
+.form{
+  
+    text-align: center;
 }
  
-input{
-    display: flex;
-    flex-direction: column;
-    text-align: right;
+.potpourri{
+    font-size: x-large;
+    color: orange;
+    background-color: blue;
 }
